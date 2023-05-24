@@ -63,7 +63,7 @@ def test_request_field_correct(test):
 @pytest.mark.parametrize('test', [
     'cityedgf',
     '*',
-    '',
+    '////45',
     '123/json'])
 def test_request_field_incorrect(test):
     """ Проверяем запрос к отдельным полям ответа api к DNS Google"""
